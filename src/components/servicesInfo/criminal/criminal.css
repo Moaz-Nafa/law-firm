@@ -1,0 +1,77 @@
+.criminal-content {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 25% 55%;
+    gap: 20%;
+    margin: 6rem auto;
+}
+.civil-image img{
+    height: 50vh;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.criminal-content img {
+    margin-top: 2rem;
+    height: 650px;
+    overflow: hidden;
+    display: block;
+    width: 400px;
+    object-fit: cover;
+    box-shadow: 15px 19px 22px 15px #ccc;
+
+}
+
+.info-content-text h1 {
+    color: var(--color-yello);
+    margin-bottom: 2rem;
+}
+.info-content-text p {
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1500px) {
+    .criminal-content {
+       width: 85%;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .criminal-content {
+       width: 95%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .criminal-content {
+       width: 100%;
+    }
+}
+/*==================== MADIA QUERIES (SMALL DEVICES) ===================*/
+@media screen and (max-width: 1100px) {
+    .criminal-content {
+        grid-template-columns: 1fr ;
+        text-align: center;
+        margin-top: 1rem;
+        gap: 3%;
+    }
+    .criminal-content img {
+        width: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+    .info-content-text p {
+        margin-bottom: 8rem;
+    }
+}
+
+
+
+
+
+
+
+

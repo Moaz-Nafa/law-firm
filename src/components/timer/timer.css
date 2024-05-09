@@ -1,0 +1,33 @@
+.timer {
+    text-align: center;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 12rem auto;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    color: var(--color-yello);
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.timer-item h2 {
+    font-size: 26px;
+}       
+/*==================== MADIA QUERIES (SMALL DEVICES) ===================*/
+@media screen and (max-width: 1000px) {
+    .timer {
+        grid-template-columns: 1fr ;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+}
+
+

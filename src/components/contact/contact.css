@@ -1,0 +1,109 @@
+.container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+.contact-title {
+    margin-bottom: 5rem;
+    color: var(--color-yello);
+    text-align: center;
+}
+.contact__options {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__option {
+    color: var(--color-white);
+    background: var(--color-dark);
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-radius: 1.2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover {
+    background: #eee;
+    color: var(--color-dark);
+
+}
+
+.contact__option-icon {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.contact-a {
+    color: var(--color-yello);
+    transition: var(--transition);
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+.contact-a:hover {
+    color: var(--color-dark);
+
+}
+
+/*================ FORM ===================*/
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    font-size: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-bg-variant);
+    resize: none;
+}
+.btn {
+    font-size: 15px;
+    color: var(--color-dark);
+    width: max-content;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background: var(--color-yello);
+    
+}
+.btn:hover {
+    background: #eee;
+    border-color: transparent;
+  }
+  
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+  }
+
+
+/*==================== MADIA QUERIES (SMALL DEVICES) ===================*/
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+

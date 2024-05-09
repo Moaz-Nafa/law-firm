@@ -1,0 +1,93 @@
+footer {
+    background: var(--color-dark);
+    padding: 3rem 0;
+    text-align: center;
+    margin-top: 9rem;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/* ================== start social article =================*/
+.social-articl h2 {
+    margin-top: 0.5rem;
+    color: var(--color-yello);
+    margin-bottom: 1rem;
+}
+.footer__socials a {
+    margin-top: 3rem;
+    background: var(--color-white);
+    color: black;
+    padding: 0.5rem 0.8rem;
+    margin-left: 0.5rem;
+    border-radius: 0.8rem;
+    border: 1px solid transparent;
+    font-size: 1.5rem;
+}
+.footer__socials a:hover {
+    background: transparent;
+    color: var(--color-white);
+    border-color: var(--color-dark);
+}
+/* ================== end social article =================*/
+/* ================== start links article =================*/
+.footer__logo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+    color: var(--color-yello);
+}
+.links-articl .links {
+        display: flex;
+        justify-content: center;
+}
+.links li a{
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--color-yello);
+    margin-left: 15px;
+    margin-bottom: 1rem;
+}
+.links a:hover {
+    color: var(--color-white);
+} 
+.phone-number{
+    color: var(--color-yello);
+    margin-bottom: 1rem;
+}
+.footer__cobyright {
+    margin-bottom: 4rem;
+    color: var(--color-yello);
+    font-size: 1rem;
+}
+/* ================== end links article =================*/
+/* ================== start address article =================*/
+.address-articl {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+.address h2 {
+    color: var(--color-yello);
+}
+.address h3{
+    color: var(--color-white);
+  
+}
+/* ================== end address article =================*/
+/*==================== MADIA QUERIES (MUDIUM DEVICES) ===================*/
+@media screen and (max-width: 1000px) {
+    footer {
+        grid-template-columns: 1fr;
+    }
+    .footer__logo {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+
+    }
+  }
+
+
+
